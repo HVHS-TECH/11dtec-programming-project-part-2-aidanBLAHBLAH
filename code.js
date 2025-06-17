@@ -5,6 +5,6 @@
 
 //functions
 function start() {
- alert("hi")
+ if()
 }
 
