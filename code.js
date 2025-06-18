@@ -1,13 +1,10 @@
 <html src="index.html"></html>
 //Variables
-var 1_seat = {
- value: "1"
- type: "radio"
-}
+
 //Constants
 
 //functions
-function start() {
+function testing() {
  pageHead.innerHTML = "help me";
 }
 
