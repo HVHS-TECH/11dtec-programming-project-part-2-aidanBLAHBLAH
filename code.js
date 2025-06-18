@@ -1,6 +1,6 @@
 
 //Variables
-var 1seat = {
+var 1_seat = {
  value: "1"
  type: "radio"
 }
