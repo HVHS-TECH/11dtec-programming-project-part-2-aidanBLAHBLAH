@@ -1,4 +1,4 @@
-
+<html src="index.html"></html>
 //Variables
 var 1_seat = {
  value: "1"
