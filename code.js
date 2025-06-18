@@ -5,8 +5,6 @@
 
 //functions
 function start() {
- if(){
-    
- }
+ 
 }
 
