@@ -11,6 +11,5 @@ function testing() {
 
 var input_name = {
     value: "Aidan"
-    type: "text"
 }
 
