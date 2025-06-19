@@ -5,6 +5,6 @@
 
 //functions
 function testing() {
- pageHead.innerHTML = "help me";
+  alert("help")
 }
 
