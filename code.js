@@ -9,3 +9,8 @@ function testing() {
   message=message + input_name.value
 }
 
+var input_name = {
+    value: "Aidan"
+    type: "text"
+}
+
