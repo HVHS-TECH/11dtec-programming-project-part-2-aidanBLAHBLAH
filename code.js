@@ -4,9 +4,10 @@
 //Constants
 
 //functions
-function testing() {
-  var message="welcome";
-  message=message + input_name.value
+function getFormInput() {
+  var message = "welcome";
+  message = message + input_name.value;
+  welcomeMessage.innerHTML = message;
 }
 
 var input_name = {
