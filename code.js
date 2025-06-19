@@ -5,6 +5,7 @@
 
 //functions
 function testing() {
-  alert("help")
+  var message="welcome";
+  message=message + input_name.value
 }
 
