@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Robs rentals</title>
-<script src="code.js"></script>
+ <script src="index.js"></script>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,19 +11,15 @@
 
     <div>
     How many seats would you like in your rental car?<br>
-    <input type="radio" id="1_seat" name="seats" value="1_seat">
-    <label for="1-seat">1 Seat</label><br>
-    <input type="radio" id="2seats" name="seats" value="2seats">
-    <label for="2seats">2 Seats</label><br>
-    <input type="radio" id="4seats" name="seats" value="4seats">
-    <label for="4seats">4 Seats</label><br>
-    <input type="radio" id="5seats" name="seats" value="5seats">
-    <label for="5seats">5 Seats</label><br>
-    <input type="radio" id="7seats" name="seats" value="7seats">
-    <label for="7seats">7 Seats</label><br>
-    <input type="radio" id="8seats" name="seats" value="8seats">
-    <label for="8seats">8 Seats</label><br><br>
-    <input type="submit" onclick="start()" value="submit">
+    <input type="radio" id="1seat" name="seats" value="1seat" checked> <label for="1-seat">1 Seat</label><br>
+    <input type="radio" id="2seats" name="seats" value="2seats"> <label for="2seats">2 Seats</label><br>
+    <input type="radio" id="4seats" name="seats" value="4seats"> <label for="4seats">4 Seats</label><br>
+    <input type="radio" id="5seats" name="seats" value="5seats"> <label for="5seats">5 Seats</label><br>
+    <input type="radio" id="7seats" name="seats" value="7seats"> <label for="7seats">7 Seats</label><br>
+    <input type="radio" id="8seats" name="seats" value="8seats"> <label for="8seats">8 Seats</label><br><br>
+    <input type="button" onclick="getSeats()" value="submit">
+    <p id="out"></p>
+    <p id="test"></p>
     </div>
 </p>
 
