@@ -20,13 +20,14 @@ innerHTML: "help me"
     seats = "2 seats";
     document.getElementById("out").innerHTML = "Our options for our two seaters are:\nMXC at $45/day"
     
-const MX5 = document.createElement("img");
-MX5.src = "MX5.png";
-MX5.alt = "MX5 car";
+ const img = document.createElement('img'); 
+    img.src = 'MX5.png';                
+    img.alt = 'MX5';                                     
 
-const container = document.getElementById('image-container');
+    const container = document.getElementById('image-container');
     container.appendChild(img); 
-    
+ 
+
   } else if (document.getElementById("4seats").checked){
     seats = "4 seats";
     document.getElementById("out").innerHTML = "Our options for our four seaters are:\nMini at $30/day\ni30 at $35/day"
