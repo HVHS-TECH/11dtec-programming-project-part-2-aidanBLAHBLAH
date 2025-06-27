@@ -28,8 +28,8 @@ innerHTML: "help me"
     const container = document.getElementById('image-container');
     container.appendChild(img); 
  
-document.getElementById("Bac Mono").style.visibility = "visible";
 
+    
   } else if (document.getElementById("4seats").checked){
     seats = "4 seats";
     document.getElementById("out").innerHTML = "Our options for our four seaters are:\nMini at $30/day\ni30 at $35/day"
