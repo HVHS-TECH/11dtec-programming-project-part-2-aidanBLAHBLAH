@@ -1,5 +1,13 @@
      var seats;
 
+ const img = document.createElement('img'); 
+    img.src = 'MX5.png';                
+    img.alt = 'MX5';
+
+const img = document.createElement('img'); 
+    img.src = 'BacMono.png';                
+    img.alt = 'Bac Mono'; 
+
     const help ={
 innerHTML: "help me"
     }
@@ -9,9 +17,7 @@ innerHTML: "help me"
     seats = "1 seat";
     document.getElementById("out").innerHTML = "Our options for our one seaters are:\nBac Mono at $25/day" 
     
-     const img = document.createElement('img'); 
-    img.src = 'BacMono.png';                
-    img.alt = 'Bac Mono';                                     
+                                         
 
     const container = document.getElementById('image-container');
     container.appendChild(img); 
@@ -20,9 +26,7 @@ innerHTML: "help me"
     seats = "2 seats";
     document.getElementById("out").innerHTML = "Our options for our two seaters are:\nMXC at $45/day"
     
- const img = document.createElement('img'); 
-    img.src = 'MX5.png';                
-    img.alt = 'MX5';                                     
+    document.getElementById("").style.visibility = "visible";                                     
 
     const container = document.getElementById('image-container');
     container.appendChild(img); 
