@@ -28,7 +28,7 @@ innerHTML: "help me"
     const container = document.getElementById('image-container');
     container.appendChild(img); 
  
-document.getElementById("Bac Mono").style.display = "none";
+document.getElementById("Bac Mono").style.visibility = "visible";
 
   } else if (document.getElementById("4seats").checked){
     seats = "4 seats";
