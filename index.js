@@ -17,6 +17,7 @@ innerHTML: "help me"
     seats = "1 seat";
     document.getElementById("out").innerHTML = "Our options for our one seaters are:\nBac Mono at $25/day" 
     document.body.append(BacMono)
+        document.getElementById("MX5 car").style.visibility = "hidden";
   } else if (document.getElementById("2seats").checked){
     seats = "2 seats";
     document.getElementById("out").innerHTML = "Our options for our two seaters are:\nMXC at $45/day"
