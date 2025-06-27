@@ -20,8 +20,7 @@ innerHTML: "help me"
     seats = "2 seats";
     document.getElementById("out").innerHTML = "Our options for our two seaters are:\nMXC at $45/day"
     
-    document.getElementById("Bac Mono").style.visibility = "visible";
-
+    
  const img = document.createElement('img'); 
     img.src = 'MX5.png';                
     img.alt = 'MX5';                                     
