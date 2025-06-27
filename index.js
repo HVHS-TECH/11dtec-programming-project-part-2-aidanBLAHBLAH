@@ -20,7 +20,7 @@ innerHTML: "help me"
     seats = "2 seats";
     document.getElementById("out").innerHTML = "Our options for our two seaters are:\nMXC at $45/day"
     
-    
+
  const img = document.createElement('img'); 
     img.src = 'MX5.png';                
     img.alt = 'MX5';                                     
@@ -28,6 +28,7 @@ innerHTML: "help me"
     const container = document.getElementById('image-container');
     container.appendChild(img); 
  
+document.getElementById("Bac Mono").style.display = "none";
 
   } else if (document.getElementById("4seats").checked){
     seats = "4 seats";
