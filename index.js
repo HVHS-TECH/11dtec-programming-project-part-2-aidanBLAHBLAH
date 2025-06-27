@@ -8,9 +8,6 @@ const MX5 = document.createElement("img");
 MX5.src = "MX5.png";
 MX5.alt = "MX5 car";
 
-let container = document.getElementById('image-container');
-            container.appendChild(MX5);
-
     const help ={
 innerHTML: "help me"
     }
