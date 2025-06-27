@@ -1,13 +1,5 @@
      var seats;
 
-    const BacMono = document.createElement("img");
-BacMono.src = "BacMono.png";
-BacMono.alt = "Bac Mono";
-
-const MX5 = document.createElement("img");
-MX5.src = "MX5.png";
-MX5.alt = "MX5 car";
-
     const help ={
 innerHTML: "help me"
     }
@@ -16,11 +8,25 @@ innerHTML: "help me"
   if (document.getElementById("1seat").checked) {
     seats = "1 seat";
     document.getElementById("out").innerHTML = "Our options for our one seaters are:\nBac Mono at $25/day" 
-    document.body.append(BacMono)
+    
+     const img = document.createElement('img'); 
+    img.src = 'BacMono.png';                
+    img.alt = 'Bac Mono';                                     
+
+    const container = document.getElementById('image-container');
+    container.appendChild(img); 
+
   } else if (document.getElementById("2seats").checked){
     seats = "2 seats";
     document.getElementById("out").innerHTML = "Our options for our two seaters are:\nMXC at $45/day"
-    document.body.append(MX5)
+    
+const MX5 = document.createElement("img");
+MX5.src = "MX5.png";
+MX5.alt = "MX5 car";
+
+const container = document.getElementById('image-container');
+    container.appendChild(img); 
+    
   } else if (document.getElementById("4seats").checked){
     seats = "4 seats";
     document.getElementById("out").innerHTML = "Our options for our four seaters are:\nMini at $30/day\ni30 at $35/day"
