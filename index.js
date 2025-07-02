@@ -30,7 +30,7 @@ let insurance;
 }
 
     function getInsurance(){
-  if (document.getElementById("testing").checked) {
+  if (document.getElementById("yes").checked) {
     insurance = "yes";
     document.getElementById("testing").innerHTML = "testing" 
   }else{
