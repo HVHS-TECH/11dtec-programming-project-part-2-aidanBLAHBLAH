@@ -30,7 +30,8 @@ let insurance;
 }
 
     function getInsurance(){
-  var x = document.getElementById("yes").value;
-  document.getElementById("testing").innerHTML = x;
+  if (document.getElementById("yes").checked){
+    document.getElementById("testing").innerHTML = "ok"
+  }
 }
 
