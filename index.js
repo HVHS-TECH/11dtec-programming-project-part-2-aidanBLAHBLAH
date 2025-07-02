@@ -29,7 +29,7 @@ let insurance;
 }
 
 function getInsurance(){
-if (document.getElementById("yes").checked) {
+if (document.getElementById("testing").checked) {
     insurance = "yes";
     document.getElementById("testing").innerHTML = "testing" 
 }else{
