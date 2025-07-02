@@ -34,7 +34,7 @@ let insurance = 0;
   if (document.getElementById("yes").checked){
     document.getElementById("insurance").innerHTML = "You will have insurance"
     insurance = 15;
-  } else if (document.getElementById("yes").checked){
+  } else if (document.getElementById("no").checked){
     document.getElementById("insurance").innerHTML = "You will not have insurance"
     insurance = 0;
   }
