@@ -37,3 +37,7 @@ let insurance = 0;
   } 
 }
 
+function getDays() {
+  document.getElementById("mySelect").value = "banana";
+}
+
