@@ -1,11 +1,6 @@
-     var seats;
+     let seats;
      let carArray = ["Bac Mono, MXC, Mini, i30, Kona, Falcon, Prado, Outlander, Estima"]
-     let carPrices = []
 
-
-    const help ={
-innerHTML: "help me"
-    }
 
     function getSeats() {
   if (document.getElementById("1seat").checked) {
