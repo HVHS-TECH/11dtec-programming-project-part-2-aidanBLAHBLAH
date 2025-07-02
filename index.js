@@ -1,5 +1,7 @@
      var seats;
-     
+     let carArray = ["Bac Mono, MXC, Mini, i30, Kona, Falcon, Prado, Outlander, Estima"]
+     let carPrices = []
+
 
     const help ={
 innerHTML: "help me"
