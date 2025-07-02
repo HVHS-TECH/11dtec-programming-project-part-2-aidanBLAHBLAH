@@ -1,3 +1,4 @@
+
 let seats;
 let carArray = ["Bac Mono, MXC, Mini, i30, Kona, Falcon, Prado, Outlander, Estima", car];
 let carSeats = ["1 seat, 2 seat, 4 seats, 4 seats, 5 seats, 5 seats, 5 seats, 7 seats, 8 seats", car];
@@ -28,13 +29,13 @@ let insurance;
     
 }
 
-function getInsurance(){
-if (document.getElementById("testing").checked) {
+    function getInsurance(){
+  if (document.getElementById("testing").checked) {
     insurance = "yes";
     document.getElementById("testing").innerHTML = "testing" 
-}else{
+  }else{
   insurance = "no";
   document.getElementById("testing").innerHTML = "testing1" 
-}
+  }
 }
 
