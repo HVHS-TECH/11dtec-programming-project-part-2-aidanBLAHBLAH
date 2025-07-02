@@ -31,7 +31,7 @@ let insurance;
 function getInsurance(){
 if (document.getElementById("yes").checked) {
     insurance = "yes";
-    document.getElementById("out").innerHTML = "Our options for our one seaters are:\nBac Mono at $25/day" 
+    document.getElementById("testing").innerHTML = "testing" 
 }
 }
 
