@@ -1,7 +1,8 @@
-     let seats;
-     let carArray = ["Bac Mono, MXC, Mini, i30, Kona, Falcon, Prado, Outlander, Estima", car]
-     let carSeats = ["1 seat, 2 seat, 4 seats, 4 seats, 5 seats, 5 seats, 5 seats, 7 seats, 8 seats", car]
-     let carPrices = ["$25/day, $45/day, $30/day, $35/day, $55/day, $60/day, $70/day, $85/day, $90/day", car]
+let seats;
+let carArray = ["Bac Mono, MXC, Mini, i30, Kona, Falcon, Prado, Outlander, Estima", car];
+let carSeats = ["1 seat, 2 seat, 4 seats, 4 seats, 5 seats, 5 seats, 5 seats, 7 seats, 8 seats", car];
+let carPrices = ["$25/day, $45/day, $30/day, $35/day, $55/day, $60/day, $70/day, $85/day, $90/day", car];
+let insurance;
 
     function getSeats() {
   if (document.getElementById("1seat").checked) {
@@ -27,8 +28,10 @@
     
 }
 
-function getInsurancec(){
-
+function getInsurance(){
+if (document.getElementById("yes").checked) {
+    insurance = "yes";
+    document.getElementById("out").innerHTML = "Our options for our one seaters are:\nBac Mono at $25/day" 
 }
-
+}
 
