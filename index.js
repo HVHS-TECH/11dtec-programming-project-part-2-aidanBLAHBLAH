@@ -39,6 +39,6 @@ let insurance = 0;
 
 function getDays() {
   var x = document.getElementById("mySelect").value;
-  document.getElementById("demo").innerHTML = x;
+  document.getElementById("days").innerHTML = x;
 }
 
