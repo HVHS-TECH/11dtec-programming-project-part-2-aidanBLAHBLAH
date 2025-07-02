@@ -38,6 +38,6 @@ let insurance = 0;
 }
 
 function getDays() {
-  document.getElementById("mySelect").value = "banana";
+  document.getElementById("days").innerHTML = "2";
 }
 
