@@ -30,7 +30,7 @@ let insurance;
 }
 
     function getInsurance(){
-  var x = document.getElementById("yes").value;
-  document.getElementById("testing").innerHTML = x;
+  var yes = document.getElementById("yes").value;
+  document.getElementById("testing").innerHTML = yes;
 }
 
