@@ -8,11 +8,11 @@ let insurance = 0;
 
     function getSeats() {
   if (document.getElementById("1seat").checked) {
-    seats = "1 seat";
-    document.getElementById("seats").innerHTML = "Our options for our one seaters are:\nBac Mono at $25/day" 
+    seats = 1;
+    document.getElementById("seats").innerHTML = "Our options for our one seaters are:\n" +carArray[seats]+ carPrices[seats] 
   } else if (document.getElementById("2seats").checked){
     seats = "2 seats";
-    document.getElementById("seats").innerHTML = "Our options for our two seaters are:\nMXC at $45/day"
+    document.getElementById("seats").innerHTML = "Our options for our two seaters are:\n" +carArray[seats]+ carPrices[seats] 
     document.body.append(MX5)
   } else if (document.getElementById("4seats").checked){
     seats = "4 seats";
