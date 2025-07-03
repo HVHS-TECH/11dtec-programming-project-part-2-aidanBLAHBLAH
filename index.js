@@ -8,7 +8,7 @@ let insurance;
 
     function getSeats() {
   if (document.getElementById("1seat").checked) {
-    seats = 0;
+    seats = "Bac Mono";
     document.getElementById("seats").innerHTML = "Our options for our one seaters are:\nBac Mono at $25/day" 
   } else if (document.getElementById("2seats").checked){
     seats = 1;
@@ -43,7 +43,10 @@ let insurance;
 function getDays() {
   x = Number[x]
   var x = document.getElementById("days").value;
-  if (seat = 0)
+  if (seat = "Bac Mono")
+  document.getElementById("daysP").innerHTML = x * 25;
+
+if (seat = 0)
   document.getElementById("daysP").innerHTML = x * 25;
 }
 
