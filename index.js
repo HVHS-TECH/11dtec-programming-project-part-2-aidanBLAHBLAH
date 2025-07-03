@@ -41,6 +41,7 @@ let insurance;
 }
 
 function getDays() {
-  document.getElementById("days").innerHTML = x;
+  var x = document.getElementById("days").value;
+  document.getElementById("demo").innerHTML = x;
 }
 
