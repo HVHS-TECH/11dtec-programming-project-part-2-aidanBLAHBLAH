@@ -40,9 +40,11 @@ let insurance;
   }
 }
 
-function getDays() {
+function getDa() {
   var x = document.getElementById("days").value;
-  x * 
-
+  alert = ("test");
 }
 
+function getDays(){
+  alert = ("woow")
+}
