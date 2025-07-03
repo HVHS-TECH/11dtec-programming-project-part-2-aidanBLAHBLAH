@@ -24,7 +24,7 @@ let insurance;
     seats = 4;
     document.getElementById("seats").innerHTML = "Our options for our seven seaters are:\nOutlander at $85/day"
   } else {
-    seats = 5 ;
+    seats = 5;
     document.getElementById("seats").innerHTML = "Our options for our eight seaters are:\nEstima at $90/day"
   }
     
@@ -41,8 +41,8 @@ let insurance;
 }
 
 function getDays() {
+  x = Number[x]
   var x = document.getElementById("days").value;
-  document.getElementById("daysP").innerHTML = x * carPrices[seats];
- 
+  document.getElementById("daysP").innerHTML = x;
 }
 
