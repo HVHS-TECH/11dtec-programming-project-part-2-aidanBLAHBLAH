@@ -18,7 +18,7 @@ let insurance;
     seats = 2;
     document.getElementById("seats").innerHTML = "Our options for our four seaters are:\nMini at $30/day\ni30 at $35/day"
   } else if (document.getElementById("5seats").checked){
-    seats = "5 seats";
+    seats = 3;
     document.getElementById("seats").innerHTML = "Our options for our five seaters are:\nKona at $55/day\nFalcon at $60/day\nPrado at $70/day"
   } else if (document.getElementById("7seats").checked){
     seats = "7 seats";
@@ -42,8 +42,7 @@ let insurance;
 
 function getDays() {
   var x = document.getElementById("days").value;
-  document.getElementById("daysP").innerHTML = x * 2;
-
-  
+  document.getElementById("daysP").innerHTML = x * carPrices[seats];
+ 
 }
 
