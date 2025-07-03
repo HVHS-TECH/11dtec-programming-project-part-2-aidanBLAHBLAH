@@ -46,7 +46,6 @@ function getDays() {
   if (seat = "Bac Mono")
   document.getElementById("daysP").innerHTML = x * 25;
 
-if (seat = 0)
-  document.getElementById("daysP").innerHTML = x * 25;
+
 }
 
