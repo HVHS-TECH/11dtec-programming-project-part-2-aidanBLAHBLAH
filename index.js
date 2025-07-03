@@ -21,10 +21,10 @@ let insurance;
     seats = 3;
     document.getElementById("seats").innerHTML = "Our options for our five seaters are:\nKona at $55/day\nFalcon at $60/day\nPrado at $70/day"
   } else if (document.getElementById("7seats").checked){
-    seats = "7 seats";
+    seats = 4;
     document.getElementById("seats").innerHTML = "Our options for our seven seaters are:\nOutlander at $85/day"
   } else {
-    seats = "8 seats";
+    seats = 5 ;
     document.getElementById("seats").innerHTML = "Our options for our eight seaters are:\nEstima at $90/day"
   }
     
