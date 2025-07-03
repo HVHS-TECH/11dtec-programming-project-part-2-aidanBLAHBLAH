@@ -43,6 +43,7 @@ let insurance;
 function getDays() {
   x = Number[x]
   var x = document.getElementById("days").value;
-  document.getElementById("daysP").innerHTML = x;
+  if (seat = 0)
+  document.getElementById("daysP").innerHTML = x * 25;
 }
 
