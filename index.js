@@ -21,18 +21,22 @@ let insurance;
 
   else if (document.getElementById("4seats").checked){
     document.getElementById("seats").innerHTML = "Our options for our four seaters are: Mini at $30/day and i30 at $35/day"
+    document.getElementById('4SeatConfirm').style.display = 'block';
   } 
 
   else if (document.getElementById("5seats").checked){
     document.getElementById("seats").innerHTML = "Our options for our five seaters are: Kona at $55/day, Falcon at $60/day and Prado at $70/day"
+    document.getElementById('5SeatConfirm').style.display = 'block';
   } 
 
   else if (document.getElementById("7seats").checked){
     document.getElementById("seats").innerHTML = "Our options for our seven seaters are: Outlander at $85/day"
+    document.getElementById('7SeatConfirm').style.display = 'block';
   } 
 
   else {
     document.getElementById("seats").innerHTML = "Our options for our eight seaters are: Estima at $90/day"
+    document.getElementById('8SeatConfirm').style.display = 'block';
   }
     
 }
