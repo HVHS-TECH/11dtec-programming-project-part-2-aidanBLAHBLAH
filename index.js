@@ -1,5 +1,5 @@
 let select_car = {
-  
+  type: "text"
 }
 let seats;
 let carArray = ["Bac Mono, MXC, Mini, i30, Kona, Falcon, Prado, Outlander, Estima", car];
@@ -10,7 +10,7 @@ let insurance;
 
     function getSeats() {
   if (document.getElementById("1seat").checked) {
-    document.getElementById("seats").innerHTML = "Our options for our one seaters are: Bac Mono at $25/day" 
+    document.getElementById("seats").innerHTML = "Our options for our one seaters are: Bac Mono at $25/day" +select_car
   } 
   
   else if (document.getElementById("2seats").checked){
