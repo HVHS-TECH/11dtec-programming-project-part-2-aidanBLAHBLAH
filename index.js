@@ -9,7 +9,7 @@ let carPrice;
 let rental;
 
 
-    function getSeats() {
+    function getSeats() {//Checks what option you have selected for how many seats you would like
   if (document.getElementById("1seat").checked) {
     document.getElementById("seats").innerHTML = "Our options for our one seaters are: Bac Mono at $25/day" 
     document.getElementById('1SeatConfirm').style.display = 'block';
@@ -81,7 +81,8 @@ let rental;
     rental = carPrice + insurance
     rental = Number(rental)
     document.getElementById('divDays').style.display = 'block';
-  } else if (document.getElementById("no").checked){
+  } 
+  else if (document.getElementById("no").checked){
     document.getElementById("insurance").innerHTML = "You will not have insurance"
     insurance = 0;
     rental = carPrice + insurance
@@ -97,42 +98,50 @@ function getDays() {
   document.getElementById("daysP").innerHTML ="This will cost you $" + x * rental;
 }//Checks what day is chosen and multiplies that day by the price of your rental
 
-function carConfirm(){
+function carConfirm(){//Allows you to confirm what car you want
   if(document.getElementById("MonoConfirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a Bac Mono" 
     carPrice = 25
     document.getElementById('divInsurance').style.display = 'block';
-  }else if (document.getElementById("MXCConfirm").checked){
+  }//Checks if you wanted to rent Bac Mono
+  else if (document.getElementById("MXCConfirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a MXC"
     carPrice = 45
     document.getElementById('divInsurance').style.display = 'block';
-  }else if (document.getElementById("MiniConfirm").checked){
+  }//Checks if you wanted to rent MXC
+  else if (document.getElementById("MiniConfirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a Mini"
     carPrice = 30
     document.getElementById('divInsurance').style.display = 'block';
-  }else if (document.getElementById("i30Confirm").checked){
+  }//Checks if you wanted to rent Mini
+  else if (document.getElementById("i30Confirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a i30"
     carPrice = 35
     document.getElementById('divInsurance').style.display = 'block';
-  }else if (document.getElementById("KonaConfirm").checked){
+  }//Checks if you wanted to rent i30
+  else if (document.getElementById("KonaConfirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a Kona"
     carPrice = 55
     document.getElementById('divInsurance').style.display = 'block';
-  }else if (document.getElementById("FalconConfirm").checked){
+  }//Checks if you wanted to rent Kona
+  else if (document.getElementById("FalconConfirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a Falcon"
     carPrice = 60
     document.getElementById('divInsurance').style.display = 'block';
-  }else if (document.getElementById("PradoConfirm").checked){
+  }//Checks if you wanted to rent Falcon
+  else if (document.getElementById("PradoConfirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a Prado"
     carPrice = 70
     document.getElementById('divInsurance').style.display = 'block';
-  }else if (document.getElementById("OutlanderConfirm").checked){
+  }//Checks if you wanted to rent Prado
+  else if (document.getElementById("OutlanderConfirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a Outlander"
     carPrice = 85
     document.getElementById('divInsurance').style.display = 'block';
-  }else if (document.getElementById("EstimaConfirm").checked){
+  }//Checks if you wanted to rent Outlander
+  else if (document.getElementById("EstimaConfirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a Estima"
     carPrice = 90
     document.getElementById('divInsurance').style.display = 'block';
-  }//Checks if you confirmed a car to rent and what car you rented
+  }//Checks if you wanted to rent Estima
 }
