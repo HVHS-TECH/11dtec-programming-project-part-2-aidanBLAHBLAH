@@ -1,3 +1,4 @@
+//Variables
 let car;
 let seats;
 let carArray = ["Bac Mono, MXC, Mini, i30, Kona, Falcon, Prado, Outlander, Estima", car];
@@ -17,7 +18,7 @@ let rental;
     document.getElementById('5SeatConfirm').style.display = 'none';
     document.getElementById('7SeatConfirm').style.display = 'none';
     document.getElementById('8SeatConfirm').style.display = 'none';
-  } 
+  } //Checks if 1 seat options has been checked and hides the option to choose other cars
   
   else if (document.getElementById("2seats").checked){
     document.getElementById("seats").innerHTML = "Our options for our two seaters are: MXC at $45/day"
@@ -27,7 +28,7 @@ let rental;
     document.getElementById('5SeatConfirm').style.display = 'none';
     document.getElementById('7SeatConfirm').style.display = 'none';
     document.getElementById('8SeatConfirm').style.display = 'none';
-  } 
+  } //Checks if 2 seat options has been checked and hides the option to choose other cars
 
   else if (document.getElementById("4seats").checked){
     document.getElementById("seats").innerHTML = "Our options for our four seaters are: Mini at $30/day and i30 at $35/day"
@@ -37,7 +38,7 @@ let rental;
     document.getElementById('5SeatConfirm').style.display = 'none';
     document.getElementById('7SeatConfirm').style.display = 'none';
     document.getElementById('8SeatConfirm').style.display = 'none';
-  } 
+  } //Checks if 4 seat options has been checked and hides the option to choose other cars
 
   else if (document.getElementById("5seats").checked){
     document.getElementById("seats").innerHTML = "Our options for our five seaters are: Kona at $55/day, Falcon at $60/day and Prado at $70/day"
@@ -47,7 +48,7 @@ let rental;
     document.getElementById('5SeatConfirm').style.display = 'block';
     document.getElementById('7SeatConfirm').style.display = 'none';
     document.getElementById('8SeatConfirm').style.display = 'none';
-  } 
+  } //Checks if 5 seat options has been checked and hides the option to choose other cars
 
   else if (document.getElementById("7seats").checked){
     document.getElementById("seats").innerHTML = "Our options for our seven seaters are: Outlander at $85/day"
@@ -57,7 +58,7 @@ let rental;
     document.getElementById('5SeatConfirm').style.display = 'none';
     document.getElementById('7SeatConfirm').style.display = 'block';
     document.getElementById('8SeatConfirm').style.display = 'none';
-  } 
+  } //Checks if 7 seat options has been checked and hides the option to choose other cars
 
   else {
     document.getElementById("seats").innerHTML = "Our options for our eight seaters are: Estima at $90/day"
@@ -67,7 +68,7 @@ let rental;
     document.getElementById('5SeatConfirm').style.display = 'none';
     document.getElementById('7SeatConfirm').style.display = 'none';
     document.getElementById('8SeatConfirm').style.display = 'block';
-  }
+  } //Checks if 8 seat options has been checked and hides the option to choose other cars
 
 
     
@@ -86,7 +87,7 @@ let rental;
     rental = carPrice + insurance
     rental = Number(rental)
     document.getElementById('divDays').style.display = 'block';
-  }
+  }//Checks wether the yes or no option has been chosen for insurance and makes the final price that it will cost to rent the car per day
 }
 
 function getDays() {
@@ -94,7 +95,7 @@ function getDays() {
   var x = document.getElementById("days").value;
   if (seat = "Bac Mono")
   document.getElementById("daysP").innerHTML ="This will cost you $" + x * rental;
-}
+}//Checks what day is chosen and multiplies that day by the price of your rental
 
 function carConfirm(){
   if(document.getElementById("MonoConfirm").checked){
@@ -133,5 +134,5 @@ function carConfirm(){
     document.getElementById("test").innerHTML = "You will be renting a Estima"
     carPrice = 90
     document.getElementById('divInsurance').style.display = 'block';
-  }
+  }//Checks if you confirmed a car to rent and what car you rented
 }
