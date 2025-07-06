@@ -5,6 +5,7 @@ let carSeats = ["1 seat, 2 seat, 4 seats, 4 seats, 5 seats, 5 seats, 5 seats, 7 
 let carPrices = [25, 45, 30, 35, 55, 60, 70, 85, 90];
 let insurance;
 let carPrice;
+let rental;
 
 
     function getSeats() {
@@ -76,9 +77,13 @@ let carPrice;
   if (document.getElementById("yes").checked){
     document.getElementById("insurance").innerHTML = "You will have insurance"
     insurance = 15;
+    rental = carPrice * insurance
+    rental = Number(rental)
   } else if (document.getElementById("no").checked){
     document.getElementById("insurance").innerHTML = "You will not have insurance"
     insurance = 0;
+    rental = carPrice
+    rental = Number(rental)
   }
 }
 
