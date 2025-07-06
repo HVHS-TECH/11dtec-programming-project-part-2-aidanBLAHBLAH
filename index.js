@@ -4,6 +4,7 @@ let carArray = ["Bac Mono, MXC, Mini, i30, Kona, Falcon, Prado, Outlander, Estim
 let carSeats = ["1 seat, 2 seat, 4 seats, 4 seats, 5 seats, 5 seats, 5 seats, 7 seats, 8 seats"];
 let carPrices = [25, 45, 30, 35, 55, 60, 70, 85, 90];
 let insurance;
+let carPrice;
 
 
     function getSeats() {
@@ -91,21 +92,30 @@ function getDays() {
 function carConfirm(){
   if(document.getElementById("MonoConfirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a Bac Mono" 
+    carPrice = 25
   }else if (document.getElementById("MXCConfirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a MXC"
+    carPrice = 45
   }else if (document.getElementById("MiniConfirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a Mini"
+    carPrice = 30
   }else if (document.getElementById("i30Confirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a i30"
+    carPrice = 35
   }else if (document.getElementById("KonaConfirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a Kona"
+    carPrice = 55
   }else if (document.getElementById("FalconConfirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a Falcon"
+    carPrice = 60
   }else if (document.getElementById("PradoConfirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a Prado"
+    carPrice = 70
   }else if (document.getElementById("OutlanderConfirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a Outlander"
+    carPrice = 85
   }else if (document.getElementById("EstimaConfirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a Estima"
+    carPrice = 90
   }
 }
