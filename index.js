@@ -69,11 +69,10 @@ let insurance;
     document.getElementById('8SeatConfirm').style.display = 'block';
   }
 
-function confirmCar(){
+function carConfirm(){
   if(document.getElementById("MonoConfirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a Bac Mono" 
   }
-
 }
 
     
