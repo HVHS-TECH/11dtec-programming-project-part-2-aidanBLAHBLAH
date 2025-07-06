@@ -11,12 +11,13 @@ let insurance;
     function getSeats() {
   if (document.getElementById("1seat").checked) {
     document.getElementById("seats").innerHTML = "Our options for our one seaters are: Bac Mono at $25/day" 
-    document.getElementById('inputContainer').style.display = 'block';
+    document.getElementById('1SeatConfirm').style.display = 'block';
   } 
   
   else if (document.getElementById("2seats").checked){
     document.getElementById("seats").innerHTML = "Our options for our two seaters are: MXC at $45/day"
     document.body.append(MX5)
+    document.getElementById('2SeatConfirm').style.display = 'block';
   } 
 
   else if (document.getElementById("4seats").checked){
