@@ -16,7 +16,6 @@ let insurance;
   
   else if (document.getElementById("2seats").checked){
     document.getElementById("seats").innerHTML = "Our options for our two seaters are: MXC at $45/day"
-    document.body.append(MX5)
     document.getElementById('2SeatConfirm').style.display = 'block';
   } 
 
