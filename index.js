@@ -71,7 +71,7 @@ let insurance;
 
 function confirmCar(){
   if(document.getElementById("MonoConfirm").checked){
-    document.getElementById("test").innerHTML = "Our options for our one seaters are: Bac Mono at $25/day" 
+    document.getElementById("test").innerHTML = "You will be renting a Bac Mono" 
   }
 
 }
