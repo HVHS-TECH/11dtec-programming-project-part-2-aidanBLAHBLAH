@@ -69,11 +69,6 @@ let insurance;
     document.getElementById('8SeatConfirm').style.display = 'block';
   }
 
-function carConfirm(){
-  if(document.getElementById("MonoConfirm").checked){
-    document.getElementById("test").innerHTML = "You will be renting a Bac Mono" 
-  }
-}
 
     
 }
@@ -93,7 +88,10 @@ function getDays() {
   var x = document.getElementById("days").value;
   if (seat = "Bac Mono")
   document.getElementById("daysP").innerHTML = x * seats;
-
-
 }
 
+function carConfirm(){
+  if(document.getElementById("MonoConfirm").checked){
+    document.getElementById("test").innerHTML = "You will be renting a Bac Mono" 
+  }
+}
