@@ -91,5 +91,21 @@ function getDays() {
 function carConfirm(){
   if(document.getElementById("MonoConfirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a Bac Mono" 
+  }else if (document.getElementById("MXCConfirm").checked){
+    document.getElementById("test").innerHTML = "You will be renting a MXC"
+  }else if (document.getElementById("MiniConfirm").checked){
+    document.getElementById("test").innerHTML = "You will be renting a Mini"
+  }else if (document.getElementById("i30Confirm").checked){
+    document.getElementById("test").innerHTML = "You will be renting a i30"
+  }else if (document.getElementById("KonaConfirm").checked){
+    document.getElementById("test").innerHTML = "You will be renting a Kona"
+  }else if (document.getElementById("FalconConfirm").checked){
+    document.getElementById("test").innerHTML = "You will be renting a Falcon"
+  }else if (document.getElementById("PradoConfirm").checked){
+    document.getElementById("test").innerHTML = "You will be renting a Prado"
+  }else if (document.getElementById("OutlanderConfirm").checked){
+    document.getElementById("test").innerHTML = "You will be renting a Outlander"
+  }else if (document.getElementById("EstimaConfirm").checked){
+    document.getElementById("test").innerHTML = "You will be renting a Estima"
   }
 }
