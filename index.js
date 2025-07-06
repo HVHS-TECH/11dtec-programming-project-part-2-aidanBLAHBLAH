@@ -77,12 +77,12 @@ let rental;
   if (document.getElementById("yes").checked){
     document.getElementById("insurance").innerHTML = "You will have insurance"
     insurance = 15;
-    rental = carPrice * insurance
+    rental = carPrice + insurance
     rental = Number(rental)
   } else if (document.getElementById("no").checked){
     document.getElementById("insurance").innerHTML = "You will not have insurance"
     insurance = 0;
-    rental = carPrice
+    rental = carPrice + insurance
     rental = Number(rental)
   }
 }
@@ -91,7 +91,7 @@ function getDays() {
   x = Number[x]
   var x = document.getElementById("days").value;
   if (seat = "Bac Mono")
-  document.getElementById("daysP").innerHTML = x * seats;
+  document.getElementById("daysP").innerHTML = x * rental;
 }
 
 function carConfirm(){
