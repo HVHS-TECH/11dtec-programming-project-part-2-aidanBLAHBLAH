@@ -91,7 +91,7 @@ function getDays() {
   x = Number[x]
   var x = document.getElementById("days").value;
   if (seat = "Bac Mono")
-  document.getElementById("daysP").innerHTML = x * rental;
+  document.getElementById("daysP").innerHTML ="This will cost you $" + x * rental;
 }
 
 function carConfirm(){
