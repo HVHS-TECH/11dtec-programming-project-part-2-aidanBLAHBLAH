@@ -17,12 +17,13 @@
     <input type="radio" id="5seats" name="seats" value="5seats"> <label for="5seats">5 Seats</label><br>
     <input type="radio" id="7seats" name="seats" value="7seats"> <label for="7seats">7 Seats</label><br>
     <input type="radio" id="8seats" name="seats" value="8seats"> <label for="8seats">8 Seats</label><br><br>
-    <input type="button" onclick="getSeats()" value="submit" name="seats">
+    <input type="button" onclick="getSeats()" value="continue" name="seats">
     <p id="seats"></p>
 
     <div id="1SeatConfirm" style="display: none;">
         Would you like to rent Bac Mono?<br>
   <input type="radio" id="MonoConfirm" name="carConfirm" value="MonoConfirm"><label for="MonoConfirm">Yes</label>
+  <input type="button" onclick="confirmCar()" value="Confirm" name="carConfirm">
 </div>
 
 <div id="2SeatConfirm" style="display: none;">
@@ -53,7 +54,7 @@
   <input type="radio" id="EstimaConfirm" name="carConfirm" value="EstimaConfirm"><label for="EstimaConfirm">Yes</label>
 </div>
     </div><br>
-
+<p id="test"></p>
 
     
 <div>

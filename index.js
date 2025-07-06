@@ -68,6 +68,14 @@ let insurance;
     document.getElementById('7SeatConfirm').style.display = 'none';
     document.getElementById('8SeatConfirm').style.display = 'block';
   }
+
+function confirmCar(){
+  if(document.getElementById("MonoConfirm").checked){
+    document.getElementById("test").innerHTML = "Our options for our one seaters are: Bac Mono at $25/day" 
+  }
+
+}
+
     
 }
 
