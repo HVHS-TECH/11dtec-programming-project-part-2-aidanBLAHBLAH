@@ -1,5 +1,5 @@
 
-let seats = 25;
+let seats;
 let carArray = ["Bac Mono, MXC, Mini, i30, Kona, Falcon, Prado, Outlander, Estima", car];
 let carSeats = ["1 seat, 2 seat, 4 seats, 4 seats, 5 seats, 5 seats, 5 seats, 7 seats, 8 seats"];
 let carPrices = [25, 45, 30, 35, 55, 60, 70, 85, 90];
