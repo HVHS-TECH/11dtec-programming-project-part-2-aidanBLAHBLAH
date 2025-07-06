@@ -79,11 +79,13 @@ let rental;
     insurance = 15;
     rental = carPrice + insurance
     rental = Number(rental)
+    document.getElementById('divDays').style.display = 'block';
   } else if (document.getElementById("no").checked){
     document.getElementById("insurance").innerHTML = "You will not have insurance"
     insurance = 0;
     rental = carPrice + insurance
     rental = Number(rental)
+    document.getElementById('divDays').style.display = 'block';
   }
 }
 
@@ -98,29 +100,38 @@ function carConfirm(){
   if(document.getElementById("MonoConfirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a Bac Mono" 
     carPrice = 25
+    document.getElementById('divInsurance').style.display = 'block';
   }else if (document.getElementById("MXCConfirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a MXC"
     carPrice = 45
+    document.getElementById('divInsurance').style.display = 'block';
   }else if (document.getElementById("MiniConfirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a Mini"
     carPrice = 30
+    document.getElementById('divInsurance').style.display = 'block';
   }else if (document.getElementById("i30Confirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a i30"
     carPrice = 35
+    document.getElementById('divInsurance').style.display = 'block';
   }else if (document.getElementById("KonaConfirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a Kona"
     carPrice = 55
+    document.getElementById('divInsurance').style.display = 'block';
   }else if (document.getElementById("FalconConfirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a Falcon"
     carPrice = 60
+    document.getElementById('divInsurance').style.display = 'block';
   }else if (document.getElementById("PradoConfirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a Prado"
     carPrice = 70
+    document.getElementById('divInsurance').style.display = 'block';
   }else if (document.getElementById("OutlanderConfirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a Outlander"
     carPrice = 85
+    document.getElementById('divInsurance').style.display = 'block';
   }else if (document.getElementById("EstimaConfirm").checked){
     document.getElementById("test").innerHTML = "You will be renting a Estima"
     carPrice = 90
+    document.getElementById('divInsurance').style.display = 'block';
   }
 }
