@@ -12,30 +12,60 @@ let insurance;
   if (document.getElementById("1seat").checked) {
     document.getElementById("seats").innerHTML = "Our options for our one seaters are: Bac Mono at $25/day" 
     document.getElementById('1SeatConfirm').style.display = 'block';
+    document.getElementById('2SeatConfirm').style.display = 'none';
+    document.getElementById('4SeatConfirm').style.display = 'none';
+    document.getElementById('5SeatConfirm').style.display = 'none';
+    document.getElementById('7SeatConfirm').style.display = 'none';
+    document.getElementById('8SeatConfirm').style.display = 'none';
   } 
   
   else if (document.getElementById("2seats").checked){
     document.getElementById("seats").innerHTML = "Our options for our two seaters are: MXC at $45/day"
+    document.getElementById('1SeatConfirm').style.display = 'none';
     document.getElementById('2SeatConfirm').style.display = 'block';
+    document.getElementById('4SeatConfirm').style.display = 'none';
+    document.getElementById('5SeatConfirm').style.display = 'none';
+    document.getElementById('7SeatConfirm').style.display = 'none';
+    document.getElementById('8SeatConfirm').style.display = 'none';
   } 
 
   else if (document.getElementById("4seats").checked){
     document.getElementById("seats").innerHTML = "Our options for our four seaters are: Mini at $30/day and i30 at $35/day"
+    document.getElementById('1SeatConfirm').style.display = 'none';
+    document.getElementById('2SeatConfirm').style.display = 'none';
     document.getElementById('4SeatConfirm').style.display = 'block';
+    document.getElementById('5SeatConfirm').style.display = 'none';
+    document.getElementById('7SeatConfirm').style.display = 'none';
+    document.getElementById('8SeatConfirm').style.display = 'none';
   } 
 
   else if (document.getElementById("5seats").checked){
     document.getElementById("seats").innerHTML = "Our options for our five seaters are: Kona at $55/day, Falcon at $60/day and Prado at $70/day"
+    document.getElementById('1SeatConfirm').style.display = 'none';
+    document.getElementById('2SeatConfirm').style.display = 'none';
+    document.getElementById('4SeatConfirm').style.display = 'none';
     document.getElementById('5SeatConfirm').style.display = 'block';
+    document.getElementById('7SeatConfirm').style.display = 'none';
+    document.getElementById('8SeatConfirm').style.display = 'none';
   } 
 
   else if (document.getElementById("7seats").checked){
     document.getElementById("seats").innerHTML = "Our options for our seven seaters are: Outlander at $85/day"
+    document.getElementById('1SeatConfirm').style.display = 'none';
+    document.getElementById('2SeatConfirm').style.display = 'none';
+    document.getElementById('4SeatConfirm').style.display = 'none';
+    document.getElementById('5SeatConfirm').style.display = 'none';
     document.getElementById('7SeatConfirm').style.display = 'block';
+    document.getElementById('8SeatConfirm').style.display = 'none';
   } 
 
   else {
     document.getElementById("seats").innerHTML = "Our options for our eight seaters are: Estima at $90/day"
+    document.getElementById('1SeatConfirm').style.display = 'none';
+    document.getElementById('2SeatConfirm').style.display = 'none';
+    document.getElementById('4SeatConfirm').style.display = 'none';
+    document.getElementById('5SeatConfirm').style.display = 'none';
+    document.getElementById('7SeatConfirm').style.display = 'none';
     document.getElementById('8SeatConfirm').style.display = 'block';
   }
     
